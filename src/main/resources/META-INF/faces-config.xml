@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+			  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
+			  xmlns:util="http://www.liferay.com/xml/ns/liferay-faces-util-extension">
+
+	<name>JQueryResourceVerifier</name>
+	<factory>
+		<factory-extension>
+			<util:resource-verifier-factory>com.liferay.faces.jquery.resource.verifier.JQueryResourceVerifierFactory</util:resource-verifier-factory>
+		</factory-extension>
+	</factory>
+
+</faces-config>
